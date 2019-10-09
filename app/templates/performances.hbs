@@ -1,18 +1,16 @@
 {{outlet}}
 
 <body data-spy="scroll" data-offset="80">
-{{nav-bar}}
-
-<section id="home" class="main"  style="background-image: url(images/performances_background_main_glamour.jpg);  background-size:cover; background-position: center center; ">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="hero-text">
-						<h2>Performances</h2>
-					</div> 
-				</div><!-- END COL-->
-			</div><!-- END ROW-->
-		</div><!-- END CONTAINER-->
+  {{nav-bar}}
+  <section id="home" class="performances" style="background-image: url(images/performances_background_main_glamour_long_tall.jpg);  background-size:cover; background-position: center center; ">
+		<div class="row">		
+			<div class="col-md-12">
+				<div class="home-text-container">
+					<h2>Past Performances</h2>
+					<br>
+					{{performances-list}}
+				</div> 
+			</div><!-- END COL-->
+		</div><!-- END ROW-->
 	</section>
-	<!-- END  HOME DESIGN -->
 </body>

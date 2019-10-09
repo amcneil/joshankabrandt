@@ -1,22 +1,25 @@
 {{outlet}}
 <body data-spy="scroll" data-offset="80">
-{{nav-bar}}
-
-<section id="about" class="main"  style="background-image: url(images/about_me_background_pastels_long.jpg);  background-size:cover; background-position: center center; ">
+  {{nav-bar}}
+		<section id="about">
 		<div class="container">
+			<div class="row" id="about-me-title">
+				<h2>About Me</h2>
+			</div>
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="hero-text" id="about-me-text">
-						<h2>About Me</h2><br>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar suscipit nunc, lobortis placerat tortor tristique ut. Fusce non lacus diam. Aliquam erat volutpat. Suspendisse arcu massa, pellentesque eget porta laoreet, convallis ultricies sapien. Nulla vitae lectus ac erat feugiat rhoncus. Proin aliquam quis eros quis gravida. Nullam volutpat justo quis nisi mattis interdum. Sed libero dui, mollis ultricies dignissim malesuada, fringilla ut elit.<br><br>
-                Vestibulum dignissim erat sapien, a vehicula dolor imperdiet ut. Sed et lobortis lacus, a hendrerit risus. Proin id ex vel urna consectetur fringilla. Donec bibendum odio eget est rutrum, at lobortis tortor porta. Donec dolor massa, ullamcorper a mattis id, consequat non tellus. Vivamus vel convallis quam. Quisque condimentum enim a augue euismod, et ultricies erat ultricies. In non mauris blandit, tristique justo et, consectetur urna. Suspendisse elementum eleifend tellus, id dignissim ipsum ultricies ut. In et quam eget ex dictum porttitor. Phasellus quis lectus magna. Fusce dictum imperdiet ex lacinia tempor. Mauris in interdum neque. Proin finibus faucibus sapien eget scelerisque. Nulla in nunc iaculis, semper magna eu, tincidunt elit. Proin vehicula eros et eros malesuada feugiat.<br><br>
-                Nullam molestie dui sed placerat viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec aliquet, urna vel congue consectetur, sapien tellus imperdiet nisi, ut imperdiet arcu velit ut augue. Morbi tristique mauris ut ex finibus, non aliquet neque facilisis. Nunc eu purus quis quam molestie lacinia non at libero. Sed venenatis vehicula nulla a luctus. Aenean eu semper nisl. Pellentesque eget leo vel diam suscipit auctor. Vivamus pharetra fermentum ante ut pulvinar. Nunc non enim mollis, suscipit dui sit amet, pulvinar ligula. Nulla id facilisis dolor. Sed laoreet ex sed varius rhoncus. Nam maximus turpis turpis, ut laoreet sem vulputate et. Mauris a arcu a sem bibendum posuere ut non turpis. Nullam consectetur ultricies quam, a placerat ex vestibulum eu. Donec vehicula consectetur eros id pharetra.<br><br>
-                Proin vestibulum justo ex, ac laoreet mauris accumsan ac. Curabitur nulla augue, tristique non felis sed, blandit semper tortor. Phasellus vulputate lectus turpis, at elementum orci congue id. Integer condimentum arcu at efficitur congue. Proin placerat et erat ac ornare. Donec vulputate finibus gravida. Aenean convallis interdum ligula ut aliquam. Vivamus id nisl sed lectus gravida facilisis. Maecenas quis arcu massa. Morbi vel nulla at quam malesuada pellentesque sed nec urna. Vestibulum faucibus velit ut venenatis dictum.
-              </p>
+				<div class="col-md-4">
+					<img class="about-img" src="images/headshot.jpg">
+				</div>
+				<div class="col-md-8">
+					<div class="home-text-container" id="about-me-text">					
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar suscipit nunc, lobortis placerat tortor tristique ut. Fusce non lacus diam. Aliquam erat volutpat. Suspendisse arcu massa, pellentesque eget porta laoreet, convallis ultricies sapien. Nulla vitae lectus ac erat feugiat rhoncus. Proin aliquam quis eros quis gravida. Nullam volutpat justo quis nisi mattis interdum. Sed libero dui, mollis ultricies dignissim malesuada, fringilla ut elit.<br><br>
+							Vestibulum dignissim erat sapien, a vehicula dolor imperdiet ut. Sed et lobortis lacus, a hendrerit risus. Proin id ex vel urna consectetur fringilla. Donec bibendum odio eget est rutrum, at lobortis tortor porta. Donec dolor massa, ullamcorper a mattis id, consequat non tellus. Vivamus vel convallis quam. Quisque condimentum enim a augue euismod, et ultricies erat ultricies. In non mauris blandit, tristique justo et, consectetur urna. Suspendisse elementum eleifend tellus, id dignissim ipsum ultricies ut. In et quam eget ex dictum porttitor. Phasellus quis lectus magna. Fusce dictum imperdiet ex lacinia tempor. Mauris in interdum neque. Proin finibus faucibus sapien eget scelerisque. Nulla in nunc iaculis, semper magna eu, tincidunt elit. Proin vehicula eros et eros malesuada feugiat.<br><br>
+							Nullam molestie dui sed placerat viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec aliquet, urna vel congue consectetur, sapien tellus imperdiet nisi, ut imperdiet arcu velit ut augue. Morbi tristique mauris ut ex finibus, non aliquet neque facilisis. Nunc eu purus quis quam molestie lacinia non at libero. Sed venenatis vehicula nulla a luctus. Aenean eu semper nisl. Pellentesque eget leo vel diam suscipit auctor. Vivamus pharetra fermentum ante ut pulvinar. Nunc non enim mollis, suscipit dui sit amet, pulvinar ligula. Nulla id facilisis dolor. Sed laoreet ex sed varius rhoncus. Nam maximus turpis turpis, ut laoreet sem vulputate et. Mauris a arcu a sem bibendum posuere ut non turpis. Nullam consectetur ultricies quam, a placerat ex vestibulum eu. Donec vehicula consectetur eros id pharetra.<br><br>
+							Proin vestibulum justo ex, ac laoreet mauris accumsan ac. Curabitur nulla augue, tristique non felis sed, blandit semper tortor. Phasellus vulputate lectus turpis, at elementum orci congue id. Integer condimentum arcu at efficitur congue. Proin placerat et erat ac ornare. Donec vulputate finibus gravida. Aenean convallis interdum ligula ut aliquam. Vivamus id nisl sed lectus gravida facilisis. Maecenas quis arcu massa. Morbi vel nulla at quam malesuada pellentesque sed nec urna. Vestibulum faucibus velit ut venenatis dictum.
+						</p>
 					</div> 
 				</div><!-- END COL-->
 			</div><!-- END ROW-->
 		</div><!-- END CONTAINER-->
 	</section>
-	<!-- END  HOME DESIGN -->
 </body>

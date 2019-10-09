@@ -1,0 +1,36 @@
+[ 2018-12-17 14:17:45.6473 15083/0x117db75c0 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-12-17 14:17:45.6708 15085/0x11809f5c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-12-17 14:17:45.6718 15085/0x11809f5c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-12-17 14:17:45.6768 15085/0x11809f5c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 15085
+[ 2018-12-17 14:17:45.6935 15087/0x10afc65c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-12-17 14:17:45.6949 15087/0x10afc65c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 15087
+2018/12/17 14:17:47 [error] 15090#0: *4 directory index of "/joshankabrandt/josh-ankabrandt/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+
+[ 2018-12-17 14:25:01.5281 15085/0x70000595e000 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-12-17 14:25:01.5281 15087/0x70000da9c000 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-12-17 14:25:01.5282 15087/0x10afc65c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-12-17 14:25:01.5283 15085/0x11809f5c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-12-17 14:25:01.5284 15087/0x70000da9c000 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-12-17 14:25:01.5284 15087/0x70000dba2000 Ser/Server.h:816 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-12-17 14:25:01.5284 15087/0x70000dba2000 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-12-17 14:25:01.5294 15085/0x70000618e000 Ser/Server.h:816 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-12-17 14:25:01.5294 15085/0x70000618e000 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-12-17 14:25:01.5295 15085/0x700005a64000 Ser/Server.h:816 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5295 15085/0x700005c70000 Ser/Server.h:816 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5295 15085/0x700005a64000 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2018-12-17 14:25:01.5295 15085/0x700005c70000 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2018-12-17 14:25:01.5295 15085/0x700005b6a000 Ser/Server.h:816 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5296 15085/0x700005e7c000 Ser/Server.h:816 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5295 15085/0x700006088000 Ser/Server.h:816 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5296 15085/0x700005b6a000 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2018-12-17 14:25:01.5296 15085/0x700005d76000 Ser/Server.h:816 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5296 15085/0x70000595e000 Ser/Server.h:816 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5296 15085/0x700005e7c000 Ser/Server.h:464 ]: [ServerThr.6] Shutdown finished
+[ 2018-12-17 14:25:01.5297 15085/0x700005f82000 Ser/Server.h:816 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2018-12-17 14:25:01.5297 15085/0x700005d76000 Ser/Server.h:464 ]: [ServerThr.5] Shutdown finished
+[ 2018-12-17 14:25:01.5297 15085/0x700006088000 Ser/Server.h:464 ]: [ServerThr.8] Shutdown finished
+[ 2018-12-17 14:25:01.5298 15085/0x700005f82000 Ser/Server.h:464 ]: [ServerThr.7] Shutdown finished
+[ 2018-12-17 14:25:01.5297 15085/0x70000595e000 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-12-17 14:25:01.5299 15087/0x10afc65c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-12-17 14:25:01.6480 15085/0x11809f5c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished

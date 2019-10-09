@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('performances', { path: '/performances' });
   this.route('gallery', { path: '/gallery' });
   this.route('contact', { path: '/contact' });
+  this.route('video');
+  this.route('show-times', { path:'/show-times' });
+  this.route('blog', { path:'/blog' });
 });
 
 export default Router;

@@ -7,9 +7,22 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li>{{#link-to "index"}}Home{{/link-to}}</li>
-            <li>{{#link-to "about"}}About{{/link-to}}</li>										
-            <li>{{#link-to "performances"}}Performances{{/link-to}}</li>
-            <li>{{#link-to "gallery"}}Gallery{{/link-to}}</li>
+            <li>{{#link-to "about"}}About{{/link-to}}</li>
+              <div class="dropdown">
+                <li class="dropbtn">Performances</li>	
+                <div class="dropdown-content">
+                  <a href="#">{{#link-to "performances"}}Past Performances{{/link-to}}</a>
+                  <a href="#">{{#link-to "show-times"}}Current Performances{{/link-to}}</a>
+                </div>
+              </div>
+            <div class="dropdown">
+              <li class="dropbtn">Gallery</li>	
+              <div class="dropdown-content">
+                <a href="#">{{#link-to "gallery"}}Image Gallery{{/link-to}}</a>
+                <a href="#">{{#link-to "video"}}Video Gallery{{/link-to}}</a>
+              </div>
+            </div>
+            <li>{{#link-to "blog"}}Blog{{/link-to}}</li>
             <li>{{#link-to "contact"}}Contact{{/link-to}}</li>
           </ul>
         </div>
